@@ -10,31 +10,51 @@
   </head>
   <body>
     <div class="weather-app">
-      <h1>Weather App</h1>
       <div class="location">
         <input type="text" placeholder="Enter city" />
         <button id="search-btn">Search</button>
         <button id="current-btn">Current</button>
-      </div>
-      <div class="weather-info">
         <h2 class="city">Durban</h2>
         <h3 class="temperature">25 °C</h3>
         <p class="condition">Warm</p>
-        <p class="date">12 June 2023</p>
-        <!-- New elements for humidity, pressure, and precipitation -->
-        <div class="hpp">
-          <p class="humidity">Humidity: 60%</p>
-          <p class="pressure">Pressure: 1013 hPa</p>
-          <p class="precipitation">Precipitation: 0 mm</p>
+        <h4 class="date">12 June 2023</h4>
+        <hr />
+      </div>
+      <div class="forecast-container">
+        <div class="day-box">
+          <div class="day">Monday</div>
+          <div class="weather">☀️</div>
+          <div class="temp">10/29℃</div>
+        </div>
+        <div class="day-box">
+          <div class="day">Tuesday</div>
+          <div class="weather">🌦️</div>
+          <div class="temp">15/25℃</div>
+        </div>
+        <div class="day-box">
+          <div class="day">Wednesday</div>
+          <div class="weather">🌧️</div>
+          <div class="temp">12/21℃</div>
+        </div>
+        <div class="day-box">
+          <div class="day">Thursday</div>
+          <div class="weather">🌧️</div>
+          <div class="temp">11/22℃</div>
+        </div>
+        <div class="day-box">
+          <div class="day">Friday</div>
+          <div class="weather">⛅</div>
+          <div class="temp">14/28℃</div>
         </div>
       </div>
+      <br />
+      <br />
+      <hr />
     </div>
-    <div class="forecast">
-      <h2>5-Day Forecast</h2>
-      <div class="forecast-days">
-        <!-- Each day's forecast will be added here dynamically -->
-      </div>
-    </div>
+    <p>
+      <a href="http://https://www.pexels.com/">Open source code</a> by Zintle
+      Ngcabashe
+    </p>
   </body>
   <script src="index.js"></script>
 </html>
